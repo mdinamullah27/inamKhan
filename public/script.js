@@ -123,6 +123,7 @@ if (contactForm) {
                     _subject: `Portfolio: ${subject}`,
                     _captcha: 'false',
                     _template: 'table',
+                    _url: 'https://mdinamullah27.github.io/inamKhan',
                 }),
             });
 
