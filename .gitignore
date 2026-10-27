@@ -1,0 +1,13 @@
+# Environment secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node / misc
+node_modules/
+.DS_Store

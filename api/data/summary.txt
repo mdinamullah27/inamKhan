@@ -1,0 +1,57 @@
+Name: Inam Ullah Khan
+Role: AI/ML Engineer at Ethics Advance Technology Ltd (Dhaka, Bangladesh), Aug 2025 - Present
+Contact: inamkhan.me@gmail.com | Phone: (+88) 01603-013127
+LinkedIn: linkedin.com/in/inam-ullah-khan27/ | GitHub: github.com/mdinamullah27
+Google Scholar: scholar.google.com/citations?user=0ysWx3MAAAAJ
+
+Profile:
+AI/ML Engineer building production systems with LLMs, RAG, and deep learning. Experienced in scalable ML applications, medical AI platforms, RESTful APIs, and applied AI research. Skilled in Generative AI, computer vision, and deep learning with 7 Q1 journal publications, 339+ citations, and h-index 7.
+
+Experience:
+1) Ethics Advance Technology Ltd - AI/ML Engineer (Dhaka, Bangladesh), Aug 2025 - Present
+   - Developed RESTful APIs using FastAPI to support LMS functionalities and integrate AI-powered features.
+   - Integrated domain-adapted LLMs with prompt engineering, document chunking, embeddings, vector databases, and RAG pipelines for intelligent responses.
+   - Deployed LLM-powered LMS solutions into production with real-time API endpoints and web application integration.
+2) United International University - Research Assistant (Dhaka, Bangladesh), Jun 2023 - Jul 2024
+   - Designed lightweight Compact Convolutional Transformer (CCT) architectures, reducing computational complexity while maintaining high accuracy.
+   - Developed factual datasets and performed model ranking and evaluation.
+   - Published research in medical AI, computer vision, and deep learning in Q1 journals including IEEE Access, MDPI Biomedicines, and Neural Computing and Applications.
+
+Projects:
+- Bangladesh Medical Education LMS (LLM-Based): FastAPI, LangChain, OpenAI API, RAG, Vector DB - medical LMS using LLMs and RAG for accurate retrieval from clinical documents with multi-turn conversation context awareness.
+- AI Healthcare Triage System: LLMs, Prompt Engineering, FastAPI, REST APIs, AI Agents - conversational AI workflows processing patient symptoms, generating structured clinical assessments, intelligent case routing.
+- Radiology Annotation Dashboard: Python, Dash, Plotly, GPT-4V, DICOM - production-ready medical image annotation platform supporting DICOM/PNG/JPG with AI-assisted labeling.
+- X-Ray Analyzer: Python, Deep Learning, Computer Vision - AI-based X-ray analysis for automated medical image processing and disease prediction (on GitHub).
+- Eye Disease Prediction System: FastAPI, TensorFlow, React - full-stack deep learning app for retinal disease classification with optimized inference.
+
+Skills:
+- Programming: Python, C, C++, JavaScript, SQL
+- AI/ML: Machine Learning, Deep Learning, LLMs, Transformers, NLP, PyTorch, TensorFlow, Hugging Face
+- Generative AI: RAG, AI Agents, Prompt Engineering, OpenAI API, LLM Integration, Embeddings, Semantic Search
+- AI Frameworks: LangChain, FastAPI, Streamlit, React, Next.js, SQLAlchemy
+- Computer Vision: YOLO, OCR, DICOM, Grad-CAM, Medical Imaging, Image Classification
+- Vector & Retrieval: Qdrant, FAISS, PgVector, Vector Databases, Vector Search, Document Chunking
+- Databases: PostgreSQL, MySQL, MongoDB, Supabase
+- Backend & APIs: FastAPI, JWT, API Integration, Uvicorn
+- Tools: Git, GitHub, GitLab, Pandas, OpenCV
+
+Education:
+- Daffodil International University, Dhaka - B.Sc. in CSE, 2019-2023, CGPA: 3.63/4.00
+
+Certifications:
+- Youth Social Leadership Training - International Center for Global Skill, funded by USAID & New York University (2020)
+- Problem Solving (Basic) - HackerRank (2023)
+- Oral Presentation Certificate - 10th International Conference on Computer and Communications Management (ICCCM 2022), Japan
+- ICPC Participation - International Collegiate Programming Contest (2021, 2022)
+
+Publications (selected, 7 Q1 total):
+- An effective approach to address processing time and computational complexity employing modified CCT for lung disease classification - Intelligent Systems with Applications, 2022 [Q1] - doi.org/10.1016/j.iswa.2022.200147
+- A Computer-Aided Diagnostic System to Identify Diabetic Retinopathy, utilizing a modified Compact Convolutional Transformer and low-resolution images - MDPI Biomedicines, 2023 [Q1, IF 4.0] - doi.org/10.3390/biomedicines11061566
+- A Lightweight Robust Deep Learning Model Gained High Accuracy in Classifying a Wide Range of Diabetic Retinopathy Images - IEEE Access, 2023 [Q1, IF 3.9] - doi.org/10.1109/ACCESS.2023.3272228
+- SkinNet-14: a deep learning framework for accurate skin cancer classification - Neural Computing and Applications, 2024
+- Fast and Efficient Lung Abnormality Identification with Explainable AI - IEEE Access, 2024
+- Deep learning-based analysis of COVID-19 X-ray images - Digital Health, 2023
+- A Low Complexity Efficient Deep Learning Model for Automated Retinal Disease Diagnosis - Journal of Healthcare Informatics Research, 2025
+Full list: Google Scholar profile above.
+
+Research Interests: LLMs & Generative AI, Retrieval-Augmented Generation (RAG), Medical Image Analysis, Computer Vision, Deep Learning, AI Agents.

@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Setup -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inam Ullah Khan — AI/ML Engineer | LLMs, RAG & Deep Learning</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Fonts + Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Inam Ullah Khan — AI/ML Engineer | LLMs, RAG & Deep Learning">
+  <meta name="description" content="Portfolio of Inam Ullah Khan, AI/ML Engineer at Ethics Advance Technology Ltd. Building production systems with LLMs, RAG, deep learning and medical AI. 7 Q1 journal publications.">
+  <meta name="author" content="Inam Ullah Khan">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://portfolio-xdk9.vercel.app/">
+  <meta property="og:title" content="Inam Ullah Khan — AI/ML Engineer">
+  <meta property="og:description" content="AI/ML Engineer building production systems with LLMs, RAG, and deep learning. Explore projects, publications, and skills.">
+  <meta property="og:image" content="https://portfolio-xdk9.vercel.app/inam.jpg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://portfolio-xdk9.vercel.app/">
+  <meta name="twitter:title" content="Inam Ullah Khan — AI/ML Engineer">
+  <meta name="twitter:description" content="AI/ML Engineer | LLMs & RAG | Deep Learning | 7 Q1 Publications">
+  <meta name="twitter:image" content="https://portfolio-xdk9.vercel.app/inam.jpg">
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Inam Ullah Khan",
+    "jobTitle": "AI/ML Engineer",
+    "url": "https://portfolio-xdk9.vercel.app",
+    "image": "https://portfolio-xdk9.vercel.app/inam.jpg",
+    "email": "mailto:inamkhan.me@gmail.com",
+    "telephone": "+8801603013127",
+    "sameAs": [
+      "https://github.com/mdinamullah27",
+      "https://linkedin.com/in/inam-ullah-khan27/",
+      "https://scholar.google.com/citations?user=0ysWx3MAAAAJ"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Ethics Advance Technology Ltd"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Daffodil International University"
+    },
+    "knowsAbout": ["Large Language Models", "Retrieval-Augmented Generation", "Deep Learning", "Computer Vision", "Medical AI", "FastAPI"]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#home" class="logo">Inam<span class="accent-text">.dev</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#publications" class="nav-link">Publications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="Inam_Ullah_Khan_CV.pdf" download class="btn btn-primary nav-cta"><i class="fas fa-download"></i> CV</a></li>
+      </ul>
+      <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-text fade-in">
+        <div class="hero-badge"><span class="pulse-dot"></span> Open to research collaboration & opportunities</div>
+        <h1>Hi, I'm <span class="gradient-text">Inam Ullah Khan</span></h1>
+        <h2 class="hero-roles">
+          <span>AI/ML Engineer</span>
+          <span class="sep">|</span>
+          <span>LLM & RAG Systems</span>
+          <span class="sep">|</span>
+          <span>Deep Learning Researcher</span>
+        </h2>
+        <p class="hero-desc">
+          I build production-grade AI systems with <strong>LLMs, RAG pipelines, and deep learning</strong> —
+          from scalable ML applications and medical AI platforms to RESTful APIs powered by generative AI.
+          Currently an <strong>AI/ML Engineer at Ethics Advance Technology Ltd</strong>, with
+          <strong>7 Q1 journal publications</strong> in medical image analysis and computer vision.
+        </p>
+        <div class="hero-buttons">
+          <a href="Inam_Ullah_Khan_CV.pdf" download class="btn btn-primary"><i class="fas fa-download"></i> Download CV</a>
+          <a href="#projects" class="btn btn-outline"><i class="fas fa-laptop-code"></i> Explore Projects</a>
+          <a href="#contact" class="btn btn-ghost"><i class="fas fa-envelope"></i> Contact Me</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num">7+</span><span class="stat-label">Q1 Publications</span></div>
+          <div class="stat"><span class="stat-num">339+</span><span class="stat-label">Citations</span></div>
+          <div class="stat"><span class="stat-num">7</span><span class="stat-label">h-index</span></div>
+          <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Years Experience</span></div>
+        </div>
+      </div>
+      <div class="hero-image fade-in" style="animation-delay: 0.3s;">
+        <div class="image-frame">
+          <div class="image-ring"></div>
+          <img src="inam.jpg" alt="Inam Ullah Khan — AI/ML Engineer specializing in LLMs, RAG, and deep learning" loading="eager">
+        </div>
+        <div class="floating-card card-top">
+          <i class="fas fa-brain"></i>
+          <div><strong>Deep Learning</strong><span>PyTorch · TensorFlow</span></div>
+        </div>
+        <div class="floating-card card-bottom">
+          <i class="fas fa-robot"></i>
+          <div><strong>GenAI / RAG</strong><span>LangChain · LLMs</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title fade-in">About <span class="gradient-text">Me</span></h2>
+      <p class="section-subtitle fade-in">Bridging applied AI engineering and published research</p>
+      <div class="about-card fade-in">
+        <p>
+          I'm an AI/ML Engineer and Computer Science graduate from Daffodil International University (CGPA 3.63/4.00),
+          with experience spanning academic research and production AI development. My research explored
+          <strong>lightweight transformer architectures (CCT)</strong> for medical image analysis — lung disease
+          classification, diabetic retinopathy diagnosis, and explainable AI — resulting in
+          <strong>7 publications in Q1 journals</strong> including IEEE Access, MDPI Biomedicines, and
+          Neural Computing and Applications.
+        </p>
+        <p>
+          Currently at <strong>Ethics Advance Technology Ltd</strong>, I develop LLM-powered systems: integrating
+          domain-adapted LLMs with prompt engineering, document chunking, embeddings, vector databases and
+          <strong>RAG pipelines</strong>, and deploying them into production via <strong>FastAPI</strong> REST endpoints
+          and web application integration. Previously, as a Research Assistant at <strong>United International
+          University</strong>, I designed Compact Convolutional Transformer architectures and conducted medical AI research.
+        </p>
+        <div class="about-interests">
+          <h3>Research Interests</h3>
+          <div class="tag-row">
+            <span class="tag"><i class="fas fa-comments"></i> LLMs & Generative AI</span>
+            <span class="tag"><i class="fas fa-database"></i> Retrieval-Augmented Generation</span>
+            <span class="tag"><i class="fas fa-laptop-medical"></i> Medical Image Analysis</span>
+            <span class="tag"><i class="fas fa-eye"></i> Computer Vision</span>
+            <span class="tag"><i class="fas fa-brain"></i> Deep Learning</span>
+            <span class="tag"><i class="fas fa-robot"></i> AI Agents</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title fade-in">Work <span class="gradient-text">Experience</span></h2>
+      <p class="section-subtitle fade-in">From research labs to production AI systems</p>
+      <div class="timeline">
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>AI/ML Engineer</h3>
+                <h4>Ethics Advance Technology Ltd.</h4>
+              </div>
+              <div class="timeline-meta">
+                <span class="badge badge-live"><span class="pulse-dot"></span> Present</span>
+                <span class="timeline-date">Aug 2025 – Present</span>
+                <span class="timeline-loc">Dhaka, Bangladesh</span>
+              </div>
+            </div>
+            <ul class="timeline-points">
+              <li>Developed <strong>RESTful APIs using FastAPI</strong> to support LMS functionalities and integrate AI-powered features.</li>
+              <li>Integrated domain-adapted <strong>LLMs</strong> with prompt engineering, document chunking, embeddings, vector databases, and <strong>RAG pipelines</strong> for intelligent responses.</li>
+              <li>Deployed <strong>LLM-powered LMS solutions</strong> into production with real-time API endpoints and web application integration.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Research Assistant</h3>
+                <h4>United International University</h4>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date">Jun 2023 – Jul 2024</span>
+                <span class="timeline-loc">Dhaka, Bangladesh</span>
+              </div>
+            </div>
+            <ul class="timeline-points">
+              <li>Designed lightweight <strong>Compact Convolutional Transformer (CCT)</strong> architectures, reducing computational complexity while maintaining high accuracy.</li>
+              <li>Developed factual datasets and performed <strong>model ranking and evaluation</strong> to assess accuracy and consistency.</li>
+              <li>Conducted research in <strong>medical AI, computer vision, and deep learning</strong>, publishing papers in Q1 journals including IEEE Access, MDPI Biomedicines, and Neural Computing and Applications.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title fade-in">Featured <span class="gradient-text">Projects</span></h2>
+      <p class="section-subtitle fade-in">Production AI systems & applied research builds</p>
+      <div class="projects-grid">
+
+        <article class="project-card fade-in">
+          <div class="project-head">
+            <div class="project-icon"><i class="fas fa-graduation-cap"></i></div>
+            <span class="badge badge-done">Completed</span>
+          </div>
+          <h3>Bangladesh Medical Education LMS <span class="project-type">(LLM-Based)</span></h3>
+          <p>Developed a medical Learning Management System using LLMs and RAG for accurate retrieval from clinical documents, supporting multi-turn conversations with context awareness.</p>
+          <div class="tech-row">
+            <span class="tech">FastAPI</span><span class="tech">LangChain</span><span class="tech">OpenAI API</span><span class="tech">RAG</span><span class="tech">Vector DB</span>
+          </div>
+        </article>
+
+        <article class="project-card fade-in" style="animation-delay: 0.1s;">
+          <div class="project-head">
+            <div class="project-icon"><i class="fas fa-heartbeat"></i></div>
+            <span class="badge badge-done">Completed</span>
+          </div>
+          <h3>AI Healthcare Triage System</h3>
+          <p>Built an LLM-powered healthcare triage system that processes patient information and symptoms through conversational AI workflows, generates structured clinical assessments, and supports intelligent case routing via FastAPI-based REST APIs.</p>
+          <div class="tech-row">
+            <span class="tech">LLMs</span><span class="tech">Prompt Engineering</span><span class="tech">FastAPI</span><span class="tech">REST APIs</span><span class="tech">AI Agents</span>
+          </div>
+        </article>
+
+        <article class="project-card fade-in" style="animation-delay: 0.2s;">
+          <div class="project-head">
+            <div class="project-icon"><i class="fas fa-x-ray"></i></div>
+            <span class="badge badge-done">Completed</span>
+          </div>
+          <h3>Radiology Annotation Dashboard</h3>
+          <p>Built a production-ready medical image annotation platform supporting DICOM/PNG/JPG formats with AI-assisted labeling and interactive visualization.</p>
+          <div class="tech-row">
+            <span class="tech">Python</span><span class="tech">Dash</span><span class="tech">Plotly</span><span class="tech">GPT-4V</span><span class="tech">DICOM</span>
+          </div>
+        </article>
+
+        <article class="project-card fade-in" style="animation-delay: 0.3s;">
+          <div class="project-head">
+            <div class="project-icon"><i class="fas fa-lungs"></i></div>
+            <span class="badge badge-done">Completed</span>
+          </div>
+          <h3>X-Ray Analyzer <i class="fab fa-github project-gh"></i></h3>
+          <p>Developed an AI-based X-ray analysis system for automated medical image processing and disease prediction using deep learning and computer vision techniques.</p>
+          <div class="tech-row">
+            <span class="tech">Python</span><span class="tech">Deep Learning</span><span class="tech">Computer Vision</span><span class="tech">X-Ray Analysis</span>
+          </div>
+          <a class="project-link" href="https://github.com/mdinamullah27" target="_blank" rel="noopener noreferrer">View on GitHub <i class="fas fa-arrow-right"></i></a>
+        </article>
+
+        <article class="project-card fade-in" style="animation-delay: 0.4s;">
+          <div class="project-head">
+            <div class="project-icon"><i class="fas fa-eye"></i></div>
+            <span class="badge badge-done">Completed</span>
+          </div>
+          <h3>Eye Disease Prediction System</h3>
+          <p>Developed a full-stack deep learning application for retinal disease classification with optimized inference performance.</p>
+          <div class="tech-row">
+            <span class="tech">FastAPI</span><span class="tech">TensorFlow</span><span class="tech">React</span>
+          </div>
+        </article>
+
+        <article class="project-card project-cta fade-in" style="animation-delay: 0.5s;">
+          <div class="project-icon big"><i class="fas fa-code-branch"></i></div>
+          <h3>More Projects</h3>
+          <p>Explore my full portfolio of AI/ML, deep learning and software engineering work on GitHub.</p>
+          <a href="https://github.com/mdinamullah27" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fab fa-github"></i> Visit GitHub</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title fade-in">Skills & <span class="gradient-text">Tools</span></h2>
+      <p class="section-subtitle fade-in">Full-stack AI engineering toolkit</p>
+      <div class="skills-grid">
+
+        <div class="skill-category fade-in">
+          <h3><i class="fas fa-laptop-code"></i> Programming</h3>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">C</span><span class="tag">C++</span><span class="tag">JavaScript</span><span class="tag">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-in" style="animation-delay: 0.05s;">
+          <h3><i class="fas fa-brain"></i> AI / ML</h3>
+          <div class="tag-row">
+            <span class="tag">Machine Learning</span><span class="tag">Deep Learning</span><span class="tag">LLMs</span><span class="tag">Transformers</span><span class="tag">NLP</span><span class="tag">PyTorch</span><span class="tag">TensorFlow</span><span class="tag">Hugging Face</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-in" style="animation-delay: 0.1s;">
+          <h3><i class="fas fa-wand-magic-sparkles"></i> Generative AI</h3>
+          <div class="tag-row">
+            <span class="tag">RAG</span><span class="tag">AI Agents</span><span class="tag">Prompt Engineering</span><span class="tag">OpenAI API</span><span class="tag">LLM Integration</span><span class="tag">Embeddings</span><span class="tag">Semantic Search</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-in" style="animation-delay: 0.15s;">
+          <h3><i class="fas fa-layer-group"></i> AI Frameworks</h3>
+          <div class="tag-row">
+            <span class="tag">LangChain</span><span class="tag">FastAPI</span><span class="tag">Streamlit</span><span class="tag">React</span><span class="tag">Next.js</span><span class="tag">SQLAlchemy</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-in" style="animation-delay: 0.2s;">
+          <h3><i class="fas fa-camera-retro"></i> Computer Vision</h3>
+          <div class="tag-row">
+            <span class="tag">YOLO</span><span class="tag">OCR</span><span class="tag">DICOM</span><span class="tag">Grad-CAM</span><span class="tag">Medical Imaging</span><span class="tag">Image Classification</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-in" style="animation-delay: 0.25s;">
+          <h3><i class="fas fa-vector-square"></i> Vector & Retrieval</h3>
+          <div class="tag-row">
+            <span class="tag">Qdrant</span><span class="tag">FAISS</span><span class="tag">PgVector</span><span class="tag">Vector Databases</span><span class="tag">Vector Search</span><span class="tag">Document Chunking</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-in" style="animation-delay: 0.3s;">
+          <h3><i class="fas fa-database"></i> Databases</h3>
+          <div class="tag-row">
+            <span class="tag">PostgreSQL</span><span class="tag">MySQL</span><span class="tag">MongoDB</span><span class="tag">Supabase</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-in" style="animation-delay: 0.35s;">
+          <h3><i class="fas fa-server"></i> Backend & Tools</h3>
+          <div class="tag-row">
+            <span class="tag">FastAPI</span><span class="tag">JWT</span><span class="tag">API Integration</span><span class="tag">Uvicorn</span><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">GitLab</span><span class="tag">Pandas</span><span class="tag">OpenCV</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications Section -->
+  <section id="publications" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title fade-in">Research <span class="gradient-text">Publications</span></h2>
+      <p class="section-subtitle fade-in">7 Q1 journal publications · 339+ citations · h-index 7</p>
+      <div class="pubs-list">
+
+        <article class="pub-item fade-in">
+          <div class="pub-badges"><span class="badge badge-q1">Q1</span><span class="badge badge-year">2022</span></div>
+          <h3>An Effective Approach to Address Processing Time and Computational Complexity Employing Modified CCT for Lung Disease Classification</h3>
+          <p class="pub-journal"><em>Intelligent Systems with Applications</em>, Vol. 16, Article 200147</p>
+          <p class="pub-desc">Modified Compact Convolutional Transformer (CCT) for efficient, low-complexity lung disease classification.</p>
+          <a class="pub-link" href="https://doi.org/10.1016/j.iswa.2022.200147" target="_blank" rel="noopener noreferrer">View publication <i class="fas fa-external-link-alt"></i></a>
+        </article>
+
+        <article class="pub-item fade-in" style="animation-delay: 0.1s;">
+          <div class="pub-badges"><span class="badge badge-q1">Q1</span><span class="badge badge-if">IF: 4.0</span><span class="badge badge-year">2023</span></div>
+          <h3>A Computer-Aided Diagnostic System to Identify Diabetic Retinopathy, Utilizing a Modified Compact Convolutional Transformer and Low-Resolution Images to Reduce Computation Time</h3>
+          <p class="pub-journal"><em>MDPI Biomedicines</em>, 11(6), 1566</p>
+          <p class="pub-desc">Computer-aided diagnostic system using a modified CCT that delivers strong accuracy even on low-resolution retinal images.</p>
+          <a class="pub-link" href="https://doi.org/10.3390/biomedicines11061566" target="_blank" rel="noopener noreferrer">View publication <i class="fas fa-external-link-alt"></i></a>
+        </article>
+
+        <article class="pub-item fade-in" style="animation-delay: 0.2s;">
+          <div class="pub-badges"><span class="badge badge-q1">Q1</span><span class="badge badge-if">IF: 3.9</span><span class="badge badge-year">2023</span></div>
+          <h3>A Lightweight Robust Deep Learning Model Gained High Accuracy in Classifying a Wide Range of Diabetic Retinopathy Images</h3>
+          <p class="pub-journal"><em>IEEE Access</em>, Vol. 11, pp. 42361–42388</p>
+          <p class="pub-desc">Lightweight deep learning for retinal disease detection with reduced computational cost and 98.65% accuracy.</p>
+          <a class="pub-link" href="https://doi.org/10.1109/ACCESS.2023.3272228" target="_blank" rel="noopener noreferrer">View publication <i class="fas fa-external-link-alt"></i></a>
+        </article>
+
+        <article class="pub-item pub-more fade-in" style="animation-delay: 0.3s;">
+          <p>Published in <strong>IEEE Access</strong>, <strong>MDPI Biomedicines</strong>, <strong>Neural Computing and Applications</strong> and more — including work on skin cancer classification (SkinNet-14), explainable AI for chest X-ray/CT analysis, and COVID-19 X-ray analysis.</p>
+          <a class="btn btn-primary" href="https://scholar.google.com/citations?user=0ysWx3MAAAAJ" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i> All Publications on Google Scholar</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Certifications -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title fade-in">Education & <span class="gradient-text">Certifications</span></h2>
+      <div class="edu-grid">
+        <div class="edu-card fade-in">
+          <div class="edu-icon"><i class="fas fa-university"></i></div>
+          <h3>B.Sc. in Computer Science & Engineering</h3>
+          <h4>Daffodil International University, Dhaka</h4>
+          <p class="edu-meta">2019 – 2023 · CGPA: <strong>3.63 / 4.00</strong></p>
+        </div>
+        <div class="edu-card fade-in" style="animation-delay: 0.1s;">
+          <div class="edu-icon"><i class="fas fa-certificate"></i></div>
+          <h3>Certifications & Activities</h3>
+          <ul class="cert-list">
+            <li><strong>Youth Social Leadership Training</strong> — International Center for Global Skill, funded by USAID & New York University (2020)</li>
+            <li><strong>Problem Solving (Basic)</strong> — HackerRank (2023)</li>
+            <li><strong>Oral Presentation Certificate</strong> — 10th International Conference on Computer and Communications Management (ICCCM 2022), Japan</li>
+            <li><strong>ICPC Participation</strong> — International Collegiate Programming Contest (2021, 2022)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title fade-in">Let's <span class="gradient-text">Collaborate</span></h2>
+      <p class="section-subtitle fade-in">Open to research internships, industry projects & academic partnerships</p>
+      <div class="contact-card fade-in">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p>I'm open to research internships, industry projects, academic partnerships, and feedback on my AI tools. Feel free to reach out.</p>
+          <div class="contact-list">
+            <a href="mailto:inamkhan.me@gmail.com" class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>inamkhan.me@gmail.com</span>
+            </a>
+            <a href="tel:+8801603013127" class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>(+88) 01603-013127</span>
+            </a>
+            <a href="https://linkedin.com/in/inam-ullah-khan27/" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <span>linkedin.com/in/inam-ullah-khan27</span>
+            </a>
+            <a href="https://github.com/mdinamullah27" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <i class="fab fa-github"></i>
+              <span>github.com/mdinamullah27</span>
+            </a>
+            <a href="https://scholar.google.com/citations?user=0ysWx3MAAAAJ" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <i class="fas fa-graduation-cap"></i>
+              <span>Google Scholar</span>
+            </a>
+          </div>
+          <div class="contact-interests">
+            <h4>Collaboration Areas</h4>
+            <ul>
+              <li>LLMs & Retrieval-Augmented Generation (RAG)</li>
+              <li>Medical Image Analysis & Computer Vision</li>
+              <li>Deep Learning & Machine Learning</li>
+            </ul>
+          </div>
+        </div>
+        <div class="contact-form-wrap">
+          <h3>Send a Message</h3>
+          <form id="contactForm" class="contact-form" action="https://formsubmit.co/inamkhan.me@gmail.com" method="POST" novalidate>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_subject" value="New message from your portfolio website">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Write your message..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" id="contactSubmit"><i class="fas fa-paper-plane"></i> Send Message</button>
+            <p class="form-note" id="formStatus">Delivered directly to inamkhan.me@gmail.com — you'll get a reply soon.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="logo">Inam<span class="accent-text">.dev</span></div>
+        <p>AI/ML Engineer · LLMs, RAG & Deep Learning</p>
+      </div>
+      <div class="footer-socials">
+        <a href="https://linkedin.com/in/inam-ullah-khan27/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/mdinamullah27" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://scholar.google.com/citations?user=0ysWx3MAAAAJ" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="mailto:inamkhan.me@gmail.com" aria-label="Email"><i class="far fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Inam Ullah Khan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Chatbot -->
+  <button id="chat-bubble" aria-label="Open chat assistant">
+    <i class="fas fa-comments"></i>
+  </button>
+
+  <div id="chat-popup" class="chat-hidden" role="dialog" aria-label="ByteBuddy chat assistant">
+    <div class="chat-header">
+      <div class="chat-header-info">
+        <div class="chat-avatar"><i class="fas fa-robot"></i></div>
+        <div>
+          <h3>ByteBuddy</h3>
+          <span class="chat-status"><span class="pulse-dot"></span> AI Assistant</span>
+        </div>
+      </div>
+      <button id="close-chat" aria-label="Close chat">&times;</button>
+    </div>
+    <div id="chat-messages">
+      <div class="msg-row bot-row">
+        <div class="msg-avatar bot-avatar"><i class="fas fa-robot"></i></div>
+        <div class="msg bot-msg">
+          <p>Hello! I'm <strong>ByteBuddy</strong> 🤖, Inam's AI assistant. Ask me anything about skills, projects, experience, or publications — I'm here to help!</p>
+        </div>
+      </div>
+    </div>
+    <div class="chat-footer">
+      <form id="chat-form">
+        <input type="text" id="chat-input" placeholder="Type your message..." autocomplete="off">
+        <button type="submit" aria-label="Send"><i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Back to top -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- External JS -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
